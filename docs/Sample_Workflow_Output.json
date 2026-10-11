@@ -1,0 +1,38 @@
+[
+  {
+    "json": {
+      "source": "Hi, I'm Ananya. Can I get 6 choco chip cookies and 4 brownies for tomorrow at 5 pm? Pickup please.",
+      "referenceDate": "2026-10-10",
+      "customer": "Ananya",
+      "date": "2026-10-11",
+      "time": "17:00",
+      "method": "Pickup",
+      "phone": "",
+      "address": "",
+      "notes": "",
+      "items": [
+        {
+          "id": "choco",
+          "name": "Choco chip cookie",
+          "price": 65,
+          "qty": 6
+        },
+        {
+          "id": "brownie",
+          "name": "Brownie",
+          "price": 90,
+          "qty": 4
+        }
+      ],
+      "flags": [],
+      "allergy": false,
+      "itemsTotalINR": 750,
+      "reviewRequired": true,
+      "confirmationDraft": "Hi Ananya! Please confirm: 6 × Choco chip cookie (₹390), 4 × Brownie (₹360). Items total: ₹750. Pickup on 11 Oct 2026 at 17:00. Delivery fees or taxes, if applicable, will be agreed separately. Once confirmed, we will reserve your order. Thank you!",
+      "engine": "local-text-rules-v1"
+    },
+    "pairedItem": {
+      "item": 0
+    }
+  }
+]

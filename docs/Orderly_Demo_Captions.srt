@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:08,000
+Orderly: a calmer desk for a busy kitchen.
+Animated walkthrough using fictional sample orders.
+
+2
+00:00:08,000 --> 00:00:21,000
+Paste a customer message.
+Set the date the message was sent.
+
+3
+00:00:21,000 --> 00:00:34,000
+6 choco chip cookies + 4 brownies = INR 750.
+Check quantities, date, time and pickup method.
+
+4
+00:00:34,000 --> 00:00:45,000
+A box has no assumed size.
+Review missing quantities and customer details.
+
+5
+00:00:45,000 --> 00:00:57,000
+Track orders through New, Baking, Ready and Completed.
+These are fictional examples.
+
+6
+00:00:57,000 --> 00:01:10,000
+The kitchen list combines quantities across active orders.
+Ready items are excluded from the to-bake count.
+
+7
+00:01:10,000 --> 00:01:21,000
+Review and copy a confirmation draft.
+Export orders or download a backup.
+
+8
+00:01:21,000 --> 00:01:30,000
+A working rules-based prototype with 14 core checks.
+Customer validation and measured impact are still pending.

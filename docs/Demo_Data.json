@@ -1,0 +1,131 @@
+{
+  "orders": [
+    {
+      "source": "Hi, I'm Ananya. Can I get 6 choco chip cookies and 4 brownies for tomorrow at 5 pm? Pickup please.",
+      "referenceDate": "2026-10-10",
+      "customer": "Ananya",
+      "date": "2026-10-11",
+      "time": "17:00",
+      "method": "Pickup",
+      "phone": "",
+      "address": "",
+      "notes": "",
+      "items": [
+        {
+          "id": "choco",
+          "name": "Choco chip cookie",
+          "price": 65,
+          "qty": 6
+        },
+        {
+          "id": "brownie",
+          "name": "Brownie",
+          "price": 90,
+          "qty": 4
+        }
+      ],
+      "flags": [],
+      "allergy": false,
+      "id": "sample-1",
+      "code": "OD-001",
+      "status": "New",
+      "demo": true
+    },
+    {
+      "source": "Hi, I'm Kabir. I need 8 double chocolate cookies tomorrow at 6 pm. Pickup. Peanut allergy.",
+      "referenceDate": "2026-10-10",
+      "customer": "Kabir",
+      "date": "2026-10-11",
+      "time": "18:00",
+      "method": "Pickup",
+      "phone": "",
+      "address": "",
+      "notes": "Dietary request in original message. Confirm before accepting.",
+      "items": [
+        {
+          "id": "double",
+          "name": "Double chocolate cookie",
+          "price": 75,
+          "qty": 8
+        }
+      ],
+      "flags": [
+        "Dietary request: confirm ingredients and cross-contact directly before accepting."
+      ],
+      "allergy": true,
+      "id": "sample-2",
+      "code": "OD-002",
+      "status": "Baking",
+      "demo": true
+    },
+    {
+      "source": "Hi, I'm Meera. 12 choco chip cookies and 6 oat cookies tomorrow at 4:30 pm. Pickup.",
+      "referenceDate": "2026-10-10",
+      "customer": "Meera",
+      "date": "2026-10-11",
+      "time": "16:30",
+      "method": "Pickup",
+      "phone": "",
+      "address": "",
+      "notes": "",
+      "items": [
+        {
+          "id": "choco",
+          "name": "Choco chip cookie",
+          "price": 65,
+          "qty": 12
+        },
+        {
+          "id": "oat",
+          "name": "Oat cookie",
+          "price": 60,
+          "qty": 6
+        }
+      ],
+      "flags": [],
+      "allergy": false,
+      "id": "sample-3",
+      "code": "OD-003",
+      "status": "Ready",
+      "demo": true
+    }
+  ],
+  "prep": [
+    {
+      "date": "2026-10-11",
+      "id": "brownie",
+      "name": "Brownie",
+      "qty": 4,
+      "orders": 1,
+      "needsBaking": 4
+    },
+    {
+      "date": "2026-10-11",
+      "id": "choco",
+      "name": "Choco chip cookie",
+      "qty": 18,
+      "orders": 2,
+      "needsBaking": 6
+    },
+    {
+      "date": "2026-10-11",
+      "id": "double",
+      "name": "Double chocolate cookie",
+      "qty": 8,
+      "orders": 1,
+      "needsBaking": 8
+    },
+    {
+      "date": "2026-10-11",
+      "id": "oat",
+      "name": "Oat cookie",
+      "qty": 6,
+      "orders": 1,
+      "needsBaking": 0
+    }
+  ],
+  "reply": "Hi Ananya! Please confirm: 6 × Choco chip cookie (₹390), 4 × Brownie (₹360). Items total: ₹750. Pickup on 11 Oct 2026 at 17:00. Delivery fees or taxes, if applicable, will be agreed separately. Once confirmed, we will reserve your order. Thank you!",
+  "sampleSubtotal": 750,
+  "engine": "local-text-rules-v1",
+  "referenceDate": "2026-10-10"
+}
