@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.zip
+.sites-runtime/
+.env
+.env.*
+.openai/
+__pycache__/
+output/
